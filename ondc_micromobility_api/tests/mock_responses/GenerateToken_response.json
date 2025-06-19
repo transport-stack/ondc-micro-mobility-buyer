@@ -1,0 +1,16 @@
+{
+  "url": "http://tg.thalesafc.com/GenerateToken",
+  "method": "POST",
+  "response": {
+    "token": {
+      "error_Code": 0,
+      "error_Text": "Success",
+      "access_token": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiSUlJVCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2RhdGVvZmJpcnRoIjoiMjM0NTcwIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiUHJvdmlkZXIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjExNmI2OTJmLWM5NTYtNDlhNS1iMjFlLTFiOTFhYjQ5MTVkMCIsImV4cCI6MTY5ODYzNzMyMSwiaXNzIjoiRE1SQ1RHIiwiYXVkIjoiRE1SQ1RHIn0.WL_4EvZMx0QH__95v45Z6yNMSye1BKfOoQJ5GwyuWFrn_A0tIHZg-Wm1pH4Ka8eyw9uBQxWBaEkqOt3RSxch6A",
+      "expires_in": 1440,
+      "refresh_expires_in": 0,
+      "token_type": "",
+      "scope": ""
+    },
+    "signature": "JLb4gj80GYuWlMbp9fwRxi1F5Zcy0vkhhts+DudTeCDBRrMKEC3noncRp1NGtna4Et7/EpYsOY9BK9NBJbi0lDANTZ0of9he0rxatlOq/ffjTLctK8JJFqglrurwzAv+mce3hFFodF9Zh5G6ts8+e2xkKHqxdK//bnLhI75OZzQ="
+  }
+}

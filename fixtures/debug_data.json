@@ -1,0 +1,176 @@
+[
+  {
+    "model": "coupons.coupon",
+    "pk": "FIRSTFREE",
+    "fields": {
+      "active": true,
+      "created_at": "2023-07-09T22:20:40.471Z",
+      "updated_at": "2023-07-09T22:20:40.471Z",
+      "name": "First Free",
+      "description": "First Free",
+      "valid_from": "2023-07-09T22:20:25Z",
+      "valid_till": null,
+      "max_discount_amount": 10.0,
+      "max_discount_percent": 7.0
+    }
+  },
+  {
+    "model": "tickets.tickettype",
+    "pk": 1,
+    "fields": {
+      "name": "General",
+      "discount_percentage": 0.0,
+      "is_description_required": false,
+      "is_active": true,
+      "description": null
+    }
+  },
+  {
+    "model": "transit.transitprovider",
+    "pk": 1,
+    "fields": {
+      "active": true,
+      "created_at": "2023-07-09T21:45:07.673Z",
+      "updated_at": "2023-07-09T21:45:07.673Z",
+      "name": "RAPIDO",
+      "website": null,
+      "logo_url": null
+    }
+  },
+  {
+    "model": "transit.transitoption",
+    "pk": 1,
+    "fields": {
+      "active": true,
+      "transit_mode": 1,
+      "provider": 1
+    }
+  },
+  {
+    "model": "journey.journey",
+    "pk": 1,
+    "fields": {
+      "active": true,
+      "created_at": "2023-07-09T21:51:16.430Z",
+      "updated_at": "2023-07-09T21:51:16.431Z",
+      "uuid": "447db49e-cc9d-4aba-a113-de5b3c54f424",
+      "created_by": null,
+      "created_for": null,
+      "data": {},
+      "status": 1,
+      "tickets": []
+    }
+  },
+  {
+    "model": "payments.paymentmode",
+    "pk": "CASH",
+    "fields": {
+      "active": true,
+      "created_at": "2023-07-10T04:33:52.985Z",
+      "updated_at": "2023-07-10T04:33:52.985Z"
+    }
+  },
+  {
+    "model": "payments.paymentmode",
+    "pk": "CREDIT_CARD",
+    "fields": {
+      "active": false,
+      "created_at": "2023-07-10T04:38:35.249Z",
+      "updated_at": "2023-07-10T04:38:35.249Z"
+    }
+  },
+  {
+    "model": "payments.paymentmode",
+    "pk": "DEBIT_CARD",
+    "fields": {
+      "active": false,
+      "created_at": "2023-07-10T04:38:30.786Z",
+      "updated_at": "2023-07-10T04:38:30.786Z"
+    }
+  },
+  {
+    "model": "payments.paymentmode",
+    "pk": "NET_BANKING",
+    "fields": {
+      "active": false,
+      "created_at": "2023-07-10T04:38:26.676Z",
+      "updated_at": "2023-07-10T04:38:26.676Z"
+    }
+  },
+  {
+    "model": "payments.paymentmode",
+    "pk": "UPI",
+    "fields": {
+      "active": true,
+      "created_at": "2023-07-10T04:32:21.563Z",
+      "updated_at": "2023-07-10T04:32:21.563Z"
+    }
+  },
+  {
+    "model": "payments.paymentgateway",
+    "pk": "DEFAULT",
+    "fields": {
+      "active": true,
+      "created_at": "2023-07-10T04:30:01.861Z",
+      "updated_at": "2023-07-10T04:30:01.861Z"
+    }
+  },
+  {
+    "model": "payments.paymentgateway",
+    "pk": "PAYTM",
+    "fields": {
+      "active": true,
+      "created_at": "2023-07-10T04:29:58.738Z",
+      "updated_at": "2023-07-10T04:29:58.738Z"
+    }
+  },
+  {
+    "model": "payments.paymentgateway",
+    "pk": "RAZORPAY",
+    "fields": {
+      "active": false,
+      "created_at": "2023-07-10T04:30:28.940Z",
+      "updated_at": "2023-07-10T04:30:28.940Z"
+    }
+  },
+  {
+    "model": "payments.paymentgateway",
+    "pk": "SELF",
+    "fields": {
+      "active": false,
+      "created_at": "2023-07-10T04:32:45.428Z",
+      "updated_at": "2023-07-10T04:32:45.428Z"
+    }
+  },
+  {
+    "model": "payments.paymentgateway",
+    "pk": "STRIPE",
+    "fields": {
+      "active": false,
+      "created_at": "2023-07-10T04:30:22.849Z",
+      "updated_at": "2023-07-10T04:30:22.849Z"
+    }
+  },
+  {
+    "model": "payments.paymentgatewaymode",
+    "pk": 1,
+    "fields": {
+      "active": true,
+      "created_at": "2023-07-10T04:38:45.512Z",
+      "updated_at": "2023-07-10T04:38:45.512Z",
+      "gateway": "SELF",
+      "mode": "CASH"
+    }
+  },
+  {
+    "model": "payments.paymentgatewaymode",
+    "pk": 2,
+    "fields": {
+      "active": true,
+      "created_at": "2023-07-10T04:38:52.389Z",
+      "updated_at": "2023-07-10T04:38:52.389Z",
+      "gateway": "PAYTM",
+      "mode": "UPI"
+    }
+  }
+]

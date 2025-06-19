@@ -1,0 +1,2048 @@
+{
+  "url": "http://tg.thalesafc.com/FareFromOneSourceToAllDestination",
+  "method": "POST",
+  "response": {
+    "objSourecToDestination": [
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 251,
+        "toStationName": "Station251",
+        "fareDate": "2023-10-30T22:03:58.4667653+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 252,
+        "toStationName": "Station252",
+        "fareDate": "2023-10-30T22:03:58.466817+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 253,
+        "toStationName": "Station253",
+        "fareDate": "2023-10-30T22:03:58.4668311+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 255,
+        "toStationName": "Station255",
+        "fareDate": "2023-10-30T22:03:58.466834+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 2,
+        "toStationName": "Welcome",
+        "fareDate": "2023-10-30T22:03:58.4668362+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 3,
+        "toStationName": "Seelampur",
+        "fareDate": "2023-10-30T22:03:58.4668396+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 4,
+        "toStationName": "Shastri Park",
+        "fareDate": "2023-10-30T22:03:58.4668417+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 5,
+        "toStationName": "Kashmere Gate Rail",
+        "fareDate": "2023-10-30T22:03:58.4668439+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 6,
+        "toStationName": "Tis Hazari",
+        "fareDate": "2023-10-30T22:03:58.4668498+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 7,
+        "toStationName": "Pul Bangash",
+        "fareDate": "2023-10-30T22:03:58.4668524+05:30",
+        "fare": 3000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 8,
+        "toStationName": "Pratap Nagar",
+        "fareDate": "2023-10-30T22:03:58.466855+05:30",
+        "fare": 3000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 10,
+        "toStationName": "Inderlok",
+        "fareDate": "2023-10-30T22:03:58.4668571+05:30",
+        "fare": 3000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 11,
+        "toStationName": "Kanhaiya Nagar",
+        "fareDate": "2023-10-30T22:03:58.4668592+05:30",
+        "fare": 3000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 12,
+        "toStationName": "Keshav Puram",
+        "fareDate": "2023-10-30T22:03:58.4668614+05:30",
+        "fare": 3000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 13,
+        "toStationName": "Netaji Subhash Place",
+        "fareDate": "2023-10-30T22:03:58.4668635+05:30",
+        "fare": 2000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 14,
+        "toStationName": "Kohat Enclave",
+        "fareDate": "2023-10-30T22:03:58.4668665+05:30",
+        "fare": 2000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 16,
+        "toStationName": "Rohini East",
+        "fareDate": "2023-10-30T22:03:58.4668686+05:30",
+        "fare": 1000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 17,
+        "toStationName": "Rohini West",
+        "fareDate": "2023-10-30T22:03:58.4668742+05:30",
+        "fare": 1000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 18,
+        "toStationName": "Rithala",
+        "fareDate": "2023-10-30T22:03:58.4668768+05:30",
+        "fare": 1000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 59,
+        "toStationName": "Mansarovar Park",
+        "fareDate": "2023-10-30T22:03:58.4668785+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 60,
+        "toStationName": "Jhilmil",
+        "fareDate": "2023-10-30T22:03:58.4668815+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 61,
+        "toStationName": "Dilshad Garden",
+        "fareDate": "2023-10-30T22:03:58.4668836+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 15,
+        "toStationName": "Pitampura",
+        "fareDate": "2023-10-30T22:03:58.4668862+05:30",
+        "fare": 2000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 254,
+        "toStationName": "Station254",
+        "fareDate": "2023-10-30T22:03:58.4668883+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 9,
+        "toStationName": "Shastri Nagar",
+        "fareDate": "2023-10-30T22:03:58.4668904+05:30",
+        "fare": 3000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 240,
+        "toStationName": "Maj M.Sharma-Rajendra Nagar",
+        "fareDate": "2023-10-30T22:03:58.4668926+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 245,
+        "toStationName": "Shaheed Sthal-New Bus Adda",
+        "fareDate": "2023-10-30T22:03:58.4668951+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 1,
+        "toStationName": "Shahdara",
+        "fareDate": "2023-10-30T22:03:58.4668973+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 181,
+        "toStationName": "Station181",
+        "fareDate": "2023-10-30T22:03:58.4669028+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 238,
+        "toStationName": "Shahid Nagar",
+        "fareDate": "2023-10-30T22:03:58.4669054+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 239,
+        "toStationName": "Raj Bagh",
+        "fareDate": "2023-10-30T22:03:58.4669075+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 241,
+        "toStationName": "Shyam Park",
+        "fareDate": "2023-10-30T22:03:58.4669101+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 242,
+        "toStationName": "Mohan Nagar",
+        "fareDate": "2023-10-30T22:03:58.4669122+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 243,
+        "toStationName": "Arthala",
+        "fareDate": "2023-10-30T22:03:58.4669143+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 244,
+        "toStationName": "Hindon River",
+        "fareDate": "2023-10-30T22:03:58.4669165+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 19,
+        "toStationName": "Vishwa vidalaya",
+        "fareDate": "2023-10-30T22:03:58.4669186+05:30",
+        "fare": 3000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 20,
+        "toStationName": "Vidhan Sabha",
+        "fareDate": "2023-10-30T22:03:58.4669331+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 21,
+        "toStationName": "Civil Lines",
+        "fareDate": "2023-10-30T22:03:58.4669353+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 22,
+        "toStationName": "Kashmere Gate Metro ",
+        "fareDate": "2023-10-30T22:03:58.4669374+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 23,
+        "toStationName": "Chandani Chowk",
+        "fareDate": "2023-10-30T22:03:58.4669395+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 24,
+        "toStationName": "Chawri Bazar",
+        "fareDate": "2023-10-30T22:03:58.4669421+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 25,
+        "toStationName": "New Delhi",
+        "fareDate": "2023-10-30T22:03:58.4669438+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 26,
+        "toStationName": "Rajiv Chowk",
+        "fareDate": "2023-10-30T22:03:58.4669464+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 27,
+        "toStationName": "Patel Chowk",
+        "fareDate": "2023-10-30T22:03:58.4669485+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 28,
+        "toStationName": "Central Secretariat",
+        "fareDate": "2023-10-30T22:03:58.4669507+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 63,
+        "toStationName": "Adarsh Nagar",
+        "fareDate": "2023-10-30T22:03:58.4669528+05:30",
+        "fare": 3000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 64,
+        "toStationName": "Azadpur",
+        "fareDate": "2023-10-30T22:03:58.4669575+05:30",
+        "fare": 3000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 65,
+        "toStationName": "Model Town",
+        "fareDate": "2023-10-30T22:03:58.4669601+05:30",
+        "fare": 3000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 83,
+        "toStationName": "Udyog Bhavan",
+        "fareDate": "2023-10-30T22:03:58.4669626+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 85,
+        "toStationName": "Jor Bagh",
+        "fareDate": "2023-10-30T22:03:58.4669652+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 87,
+        "toStationName": "AIIMS",
+        "fareDate": "2023-10-30T22:03:58.4669673+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 88,
+        "toStationName": "Green Park",
+        "fareDate": "2023-10-30T22:03:58.4669695+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 90,
+        "toStationName": "Malaviya Nagar",
+        "fareDate": "2023-10-30T22:03:58.4669716+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 91,
+        "toStationName": "Saket",
+        "fareDate": "2023-10-30T22:03:58.4669741+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 92,
+        "toStationName": "Qutab Minar",
+        "fareDate": "2023-10-30T22:03:58.4669763+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 93,
+        "toStationName": "Chhatar Pur",
+        "fareDate": "2023-10-30T22:03:58.466978+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 94,
+        "toStationName": "Sultan Pur",
+        "fareDate": "2023-10-30T22:03:58.4669806+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 95,
+        "toStationName": "Ghitorny",
+        "fareDate": "2023-10-30T22:03:58.4669857+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 96,
+        "toStationName": "Arjan Garh",
+        "fareDate": "2023-10-30T22:03:58.4669878+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 97,
+        "toStationName": "Guru DronaCharya",
+        "fareDate": "2023-10-30T22:03:58.46699+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 98,
+        "toStationName": "Sikandar Pur",
+        "fareDate": "2023-10-30T22:03:58.4669921+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 100,
+        "toStationName": "Iffco Chowk",
+        "fareDate": "2023-10-30T22:03:58.4669942+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 101,
+        "toStationName": "Huda City Centre",
+        "fareDate": "2023-10-30T22:03:58.4669964+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 62,
+        "toStationName": "JahangirPuri",
+        "fareDate": "2023-10-30T22:03:58.4669985+05:30",
+        "fare": 3000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 86,
+        "toStationName": "Dilli Haat-INA",
+        "fareDate": "2023-10-30T22:03:58.4670006+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 66,
+        "toStationName": "Guru Tegh Bahadur Nagar",
+        "fareDate": "2023-10-30T22:03:58.4670058+05:30",
+        "fare": 3000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 84,
+        "toStationName": "Lok Kalyan Marg",
+        "fareDate": "2023-10-30T22:03:58.4670083+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 89,
+        "toStationName": "Hauz Khas",
+        "fareDate": "2023-10-30T22:03:58.4670105+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 147,
+        "toStationName": "Haiderpur Badli Mor",
+        "fareDate": "2023-10-30T22:03:58.4670122+05:30",
+        "fare": 3000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 149,
+        "toStationName": "Samaypur Badli",
+        "fareDate": "2023-10-30T22:03:58.4670147+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 99,
+        "toStationName": "MG Road",
+        "fareDate": "2023-10-30T22:03:58.4670173+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 148,
+        "toStationName": "Rohini Sector-18-19",
+        "fareDate": "2023-10-30T22:03:58.4670194+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 29,
+        "toStationName": "Indraprastha",
+        "fareDate": "2023-10-30T22:03:58.4670216+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 31,
+        "toStationName": "Mandi House",
+        "fareDate": "2023-10-30T22:03:58.4670237+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 32,
+        "toStationName": "Barakhamba Road",
+        "fareDate": "2023-10-30T22:03:58.4670288+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 34,
+        "toStationName": "Jhandewalan",
+        "fareDate": "2023-10-30T22:03:58.467031+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 35,
+        "toStationName": "Karol Bagh",
+        "fareDate": "2023-10-30T22:03:58.4670331+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 36,
+        "toStationName": "Rajendra Place",
+        "fareDate": "2023-10-30T22:03:58.4670348+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 37,
+        "toStationName": "Patel Nagar",
+        "fareDate": "2023-10-30T22:03:58.4670369+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 38,
+        "toStationName": "Shadipur",
+        "fareDate": "2023-10-30T22:03:58.4670391+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 40,
+        "toStationName": "Moti Nagar",
+        "fareDate": "2023-10-30T22:03:58.4670412+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 41,
+        "toStationName": "Ramesh Nagar",
+        "fareDate": "2023-10-30T22:03:58.4670433+05:30",
+        "fare": 3000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 42,
+        "toStationName": "Rajouri Garden",
+        "fareDate": "2023-10-30T22:03:58.4670455+05:30",
+        "fare": 3000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 43,
+        "toStationName": "Tagore Garden",
+        "fareDate": "2023-10-30T22:03:58.4670472+05:30",
+        "fare": 3000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 44,
+        "toStationName": "Subhash Nagar",
+        "fareDate": "2023-10-30T22:03:58.4670523+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 45,
+        "toStationName": "Tilak Nagar",
+        "fareDate": "2023-10-30T22:03:58.4670545+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 50,
+        "toStationName": "Nawada",
+        "fareDate": "2023-10-30T22:03:58.4670566+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 51,
+        "toStationName": "Dwarka Mor",
+        "fareDate": "2023-10-30T22:03:58.4670587+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 52,
+        "toStationName": "Dwarka",
+        "fareDate": "2023-10-30T22:03:58.4670609+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 72,
+        "toStationName": "Yamuna Bank",
+        "fareDate": "2023-10-30T22:03:58.467063+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 73,
+        "toStationName": "Akshardham",
+        "fareDate": "2023-10-30T22:03:58.4670651+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 76,
+        "toStationName": "New Ashok Nagar",
+        "fareDate": "2023-10-30T22:03:58.4670668+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 80,
+        "toStationName": "Botanical Garden",
+        "fareDate": "2023-10-30T22:03:58.4670694+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 81,
+        "toStationName": "Golf Course",
+        "fareDate": "2023-10-30T22:03:58.4670711+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 82,
+        "toStationName": "City Centre",
+        "fareDate": "2023-10-30T22:03:58.4670762+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 46,
+        "toStationName": "Janak Puri East",
+        "fareDate": "2023-10-30T22:03:58.4670784+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 47,
+        "toStationName": "Janak Puri West",
+        "fareDate": "2023-10-30T22:03:58.4670809+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 48,
+        "toStationName": "Uttam Ngr East",
+        "fareDate": "2023-10-30T22:03:58.4670826+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 49,
+        "toStationName": "Uttam Ngr West",
+        "fareDate": "2023-10-30T22:03:58.4670848+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 75,
+        "toStationName": "Mayur V Extn",
+        "fareDate": "2023-10-30T22:03:58.4670869+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 33,
+        "toStationName": "R K Ashram Marg",
+        "fareDate": "2023-10-30T22:03:58.4670891+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 53,
+        "toStationName": "Dwarka Sec14",
+        "fareDate": "2023-10-30T22:03:58.4670912+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 134,
+        "toStationName": "Dwarka Sec08",
+        "fareDate": "2023-10-30T22:03:58.4670933+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 54,
+        "toStationName": "Dwarka Sec13",
+        "fareDate": "2023-10-30T22:03:58.4670955+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 55,
+        "toStationName": "Dwarka Sec12",
+        "fareDate": "2023-10-30T22:03:58.4671006+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 56,
+        "toStationName": "Dwarka Sec11",
+        "fareDate": "2023-10-30T22:03:58.4671032+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 57,
+        "toStationName": "Dwarka Sec10",
+        "fareDate": "2023-10-30T22:03:58.4671053+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 58,
+        "toStationName": "Dwarka Sec09",
+        "fareDate": "2023-10-30T22:03:58.4671074+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 77,
+        "toStationName": "Noida Sec15",
+        "fareDate": "2023-10-30T22:03:58.4671096+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 78,
+        "toStationName": "Noida Sec16",
+        "fareDate": "2023-10-30T22:03:58.4671117+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 79,
+        "toStationName": "Noida Sec18",
+        "fareDate": "2023-10-30T22:03:58.4671138+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 74,
+        "toStationName": "Mayur V Ph1",
+        "fareDate": "2023-10-30T22:03:58.467116+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 135,
+        "toStationName": "Dwarka Sec21",
+        "fareDate": "2023-10-30T22:03:58.4671185+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 30,
+        "toStationName": "Supreme Court",
+        "fareDate": "2023-10-30T22:03:58.4671211+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 39,
+        "toStationName": "BUS",
+        "fareDate": "2023-10-30T22:03:58.4671232+05:30",
+        "fare": 3000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 225,
+        "toStationName": "Sector 34 Noida",
+        "fareDate": "2023-10-30T22:03:58.4671284+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 226,
+        "toStationName": "Sector 52 Noida",
+        "fareDate": "2023-10-30T22:03:58.4671309+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 227,
+        "toStationName": "Sector 61 Noida",
+        "fareDate": "2023-10-30T22:03:58.4671331+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 228,
+        "toStationName": "Sector 59 Noida",
+        "fareDate": "2023-10-30T22:03:58.4671352+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 229,
+        "toStationName": "Sector 62 Noida",
+        "fareDate": "2023-10-30T22:03:58.4671373+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 230,
+        "toStationName": "Noida Electronic City",
+        "fareDate": "2023-10-30T22:03:58.4671395+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 136,
+        "toStationName": "Kaushambi",
+        "fareDate": "2023-10-30T22:03:58.4671412+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 137,
+        "toStationName": "Vaishali",
+        "fareDate": "2023-10-30T22:03:58.4671433+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 67,
+        "toStationName": "Anand Vihar ISBT",
+        "fareDate": "2023-10-30T22:03:58.4671454+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 68,
+        "toStationName": "Karkardooma",
+        "fareDate": "2023-10-30T22:03:58.4671476+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 69,
+        "toStationName": "Preet Vihar",
+        "fareDate": "2023-10-30T22:03:58.4671595+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 70,
+        "toStationName": "Nirman Vihar",
+        "fareDate": "2023-10-30T22:03:58.4671617+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 71,
+        "toStationName": "Laxmi Nagar",
+        "fareDate": "2023-10-30T22:03:58.4671634+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 120,
+        "toStationName": "Punjabi Bagh",
+        "fareDate": "2023-10-30T22:03:58.4671659+05:30",
+        "fare": 3000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 121,
+        "toStationName": "Shivaji Park",
+        "fareDate": "2023-10-30T22:03:58.4671681+05:30",
+        "fare": 3000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 122,
+        "toStationName": "Madi Pur",
+        "fareDate": "2023-10-30T22:03:58.4671702+05:30",
+        "fare": 3000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 125,
+        "toStationName": "Peera Garhi",
+        "fareDate": "2023-10-30T22:03:58.4671728+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 126,
+        "toStationName": "Udyog Nagar",
+        "fareDate": "2023-10-30T22:03:58.4671779+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 127,
+        "toStationName": "Surajmal Stadium",
+        "fareDate": "2023-10-30T22:03:58.46718+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 128,
+        "toStationName": "Nangloi",
+        "fareDate": "2023-10-30T22:03:58.4671822+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 130,
+        "toStationName": "Rajdhani Park",
+        "fareDate": "2023-10-30T22:03:58.4671843+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 131,
+        "toStationName": "Mundka",
+        "fareDate": "2023-10-30T22:03:58.4671864+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 132,
+        "toStationName": "Sat Guru Ram Singh",
+        "fareDate": "2023-10-30T22:03:58.467189+05:30",
+        "fare": 3000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 119,
+        "toStationName": "Ashok Park Main",
+        "fareDate": "2023-10-30T22:03:58.4671911+05:30",
+        "fare": 3000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 129,
+        "toStationName": "Nangloi Railway Station",
+        "fareDate": "2023-10-30T22:03:58.4671937+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 237,
+        "toStationName": "Brigadier Hoshiyar Singh",
+        "fareDate": "2023-10-30T22:03:58.4671958+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 118,
+        "toStationName": "Inderlok New",
+        "fareDate": "2023-10-30T22:03:58.4675401+05:30",
+        "fare": 3000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 123,
+        "toStationName": "Paschim V West",
+        "fareDate": "2023-10-30T22:03:58.4675525+05:30",
+        "fare": 3000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 124,
+        "toStationName": "Paschim V East",
+        "fareDate": "2023-10-30T22:03:58.4675547+05:30",
+        "fare": 3000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 236,
+        "toStationName": "Bahadurgarh City",
+        "fareDate": "2023-10-30T22:03:58.4675568+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 235,
+        "toStationName": "Pandit Shri Ram Sharma",
+        "fareDate": "2023-10-30T22:03:58.4675594+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 133,
+        "toStationName": "Kirti Nagar New",
+        "fareDate": "2023-10-30T22:03:58.4675615+05:30",
+        "fare": 3000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 231,
+        "toStationName": "Mundka IA",
+        "fareDate": "2023-10-30T22:03:58.4675636+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 232,
+        "toStationName": "Ghevra",
+        "fareDate": "2023-10-30T22:03:58.4675658+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 233,
+        "toStationName": "Tikri Kalan ",
+        "fareDate": "2023-10-30T22:03:58.4675679+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 234,
+        "toStationName": "Tikri Border ",
+        "fareDate": "2023-10-30T22:03:58.4675705+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 103,
+        "toStationName": "Khan Market",
+        "fareDate": "2023-10-30T22:03:58.4675726+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 104,
+        "toStationName": "JLN Stadium",
+        "fareDate": "2023-10-30T22:03:58.4675854+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 105,
+        "toStationName": "Jangpura",
+        "fareDate": "2023-10-30T22:03:58.467588+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 106,
+        "toStationName": "Lajpat Nagar",
+        "fareDate": "2023-10-30T22:03:58.4675901+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 107,
+        "toStationName": "Moolchand",
+        "fareDate": "2023-10-30T22:03:58.4675927+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 109,
+        "toStationName": "Nehru Place",
+        "fareDate": "2023-10-30T22:03:58.4675948+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 110,
+        "toStationName": "Kalkaji Mandir",
+        "fareDate": "2023-10-30T22:03:58.4675969+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 112,
+        "toStationName": "Okhla",
+        "fareDate": "2023-10-30T22:03:58.4675995+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 113,
+        "toStationName": "Jashola",
+        "fareDate": "2023-10-30T22:03:58.4676029+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 114,
+        "toStationName": "Sarita Vihar",
+        "fareDate": "2023-10-30T22:03:58.4676085+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 115,
+        "toStationName": "Mohan Estate",
+        "fareDate": "2023-10-30T22:03:58.467611+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 116,
+        "toStationName": "Tughlakabad",
+        "fareDate": "2023-10-30T22:03:58.4676132+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 117,
+        "toStationName": "Badarpur",
+        "fareDate": "2023-10-30T22:03:58.4676153+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 144,
+        "toStationName": "Janpath",
+        "fareDate": "2023-10-30T22:03:58.4676175+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 146,
+        "toStationName": "ITO",
+        "fareDate": "2023-10-30T22:03:58.4676196+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 151,
+        "toStationName": "NHPC Chowk",
+        "fareDate": "2023-10-30T22:03:58.4676222+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 150,
+        "toStationName": "Sarai",
+        "fareDate": "2023-10-30T22:03:58.4676243+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 152,
+        "toStationName": "Mewala Maharajpur",
+        "fareDate": "2023-10-30T22:03:58.4676264+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 153,
+        "toStationName": "Sector-28",
+        "fareDate": "2023-10-30T22:03:58.4676286+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 154,
+        "toStationName": "Badkal Mor",
+        "fareDate": "2023-10-30T22:03:58.4676341+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 155,
+        "toStationName": "Old Faridabad",
+        "fareDate": "2023-10-30T22:03:58.4676362+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 246,
+        "toStationName": "Sant Surdas Sihi",
+        "fareDate": "2023-10-30T22:03:58.467638+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 102,
+        "toStationName": "Central SecNew",
+        "fareDate": "2023-10-30T22:03:58.4676401+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 111,
+        "toStationName": "Govind Puri",
+        "fareDate": "2023-10-30T22:03:58.4676422+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 145,
+        "toStationName": "Mandi House New",
+        "fareDate": "2023-10-30T22:03:58.4676444+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 108,
+        "toStationName": "Kailash Colony",
+        "fareDate": "2023-10-30T22:03:58.4676465+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 247,
+        "toStationName": "Raja Nahar Singh-Ballabhgarh",
+        "fareDate": "2023-10-30T22:03:58.4676486+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 156,
+        "toStationName": "Neelam Chowk Ajronda",
+        "fareDate": "2023-10-30T22:03:58.4676508+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 157,
+        "toStationName": "Bata Chowk",
+        "fareDate": "2023-10-30T22:03:58.4676529+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 158,
+        "toStationName": "Escorts Mujesar",
+        "fareDate": "2023-10-30T22:03:58.467658+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 164,
+        "toStationName": "Delhi Gate",
+        "fareDate": "2023-10-30T22:03:58.4676602+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 165,
+        "toStationName": "Jama Masjid",
+        "fareDate": "2023-10-30T22:03:58.4676627+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 166,
+        "toStationName": "Lal Quila",
+        "fareDate": "2023-10-30T22:03:58.4676649+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 167,
+        "toStationName": "Kashmere Gate",
+        "fareDate": "2023-10-30T22:03:58.467667+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 214,
+        "toStationName": "East Vinod Nagar",
+        "fareDate": "2023-10-30T22:03:58.4676691+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 215,
+        "toStationName": "Mandawali-West Vinod Nagar",
+        "fareDate": "2023-10-30T22:03:58.4676717+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 199,
+        "toStationName": "ESI-Basaidarapur",
+        "fareDate": "2023-10-30T22:03:58.4676743+05:30",
+        "fare": 3000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 205,
+        "toStationName": "SMV Moti Bagh",
+        "fareDate": "2023-10-30T22:03:58.4676768+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 211,
+        "toStationName": "Sarai Kale Khan Nizamuddin",
+        "fareDate": "2023-10-30T22:03:58.467679+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 212,
+        "toStationName": "Mayur VPkt1",
+        "fareDate": "2023-10-30T22:03:58.4676901+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 206,
+        "toStationName": "Bhikaji Cama Place",
+        "fareDate": "2023-10-30T22:03:58.4676939+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 207,
+        "toStationName": "Sarojini Nagar",
+        "fareDate": "2023-10-30T22:03:58.4676978+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 208,
+        "toStationName": "South Extension",
+        "fareDate": "2023-10-30T22:03:58.4677016+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 221,
+        "toStationName": "Maujpur",
+        "fareDate": "2023-10-30T22:03:58.4677054+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 196,
+        "toStationName": "Netaji Subhash Place L-7",
+        "fareDate": "2023-10-30T22:03:58.4677076+05:30",
+        "fare": 2000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 200,
+        "toStationName": "Rajouri Garden L-7",
+        "fareDate": "2023-10-30T22:03:58.4677097+05:30",
+        "fare": 3000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 194,
+        "toStationName": "Azadpur L-7",
+        "fareDate": "2023-10-30T22:03:58.4677123+05:30",
+        "fare": 3000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 209,
+        "toStationName": "Vinobapuri",
+        "fareDate": "2023-10-30T22:03:58.4677144+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 198,
+        "toStationName": "Punjabi Bagh West",
+        "fareDate": "2023-10-30T22:03:58.4677166+05:30",
+        "fare": 3000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 193,
+        "toStationName": "Majlis Park",
+        "fareDate": "2023-10-30T22:03:58.4677217+05:30",
+        "fare": 3000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 195,
+        "toStationName": "Shalimar Bagh",
+        "fareDate": "2023-10-30T22:03:58.4677242+05:30",
+        "fare": 3000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 197,
+        "toStationName": "Shakurpur",
+        "fareDate": "2023-10-30T22:03:58.4677264+05:30",
+        "fare": 3000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 201,
+        "toStationName": "Mayapuri",
+        "fareDate": "2023-10-30T22:03:58.4677285+05:30",
+        "fare": 3000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 202,
+        "toStationName": "Narayana Vihar",
+        "fareDate": "2023-10-30T22:03:58.4677307+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 203,
+        "toStationName": "Delhi Cantt",
+        "fareDate": "2023-10-30T22:03:58.4677328+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 204,
+        "toStationName": "DD South Campus",
+        "fareDate": "2023-10-30T22:03:58.4677353+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 210,
+        "toStationName": "Ashram",
+        "fareDate": "2023-10-30T22:03:58.4677375+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 213,
+        "toStationName": "Trilokpuri",
+        "fareDate": "2023-10-30T22:03:58.4677396+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 216,
+        "toStationName": "IP Extension",
+        "fareDate": "2023-10-30T22:03:58.4677418+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 217,
+        "toStationName": "Karkarduma Court",
+        "fareDate": "2023-10-30T22:03:58.4677469+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 218,
+        "toStationName": "Krishna Nagar",
+        "fareDate": "2023-10-30T22:03:58.4677494+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 219,
+        "toStationName": "East Azad Nagar",
+        "fareDate": "2023-10-30T22:03:58.467752+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 220,
+        "toStationName": "Jaffarabad",
+        "fareDate": "2023-10-30T22:03:58.4677541+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 222,
+        "toStationName": "Gokulpuri",
+        "fareDate": "2023-10-30T22:03:58.4677563+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 223,
+        "toStationName": "Johari  Enclave",
+        "fareDate": "2023-10-30T22:03:58.467758+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 224,
+        "toStationName": "Shiv Vihar",
+        "fareDate": "2023-10-30T22:03:58.4677606+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 169,
+        "toStationName": "Okhla Bird Sanctury",
+        "fareDate": "2023-10-30T22:03:58.4677623+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 170,
+        "toStationName": "Kalindi Kunj",
+        "fareDate": "2023-10-30T22:03:58.4677648+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 171,
+        "toStationName": "Jasola Vihar",
+        "fareDate": "2023-10-30T22:03:58.467767+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 172,
+        "toStationName": "Okhla Vihar",
+        "fareDate": "2023-10-30T22:03:58.4677802+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 173,
+        "toStationName": "Jamia Millia Islamia",
+        "fareDate": "2023-10-30T22:03:58.4677828+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 174,
+        "toStationName": "Sukhdev Vihar",
+        "fareDate": "2023-10-30T22:03:58.4677849+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 175,
+        "toStationName": "Okhla NSIC",
+        "fareDate": "2023-10-30T22:03:58.4677866+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 168,
+        "toStationName": "Botanical Garden L-8",
+        "fareDate": "2023-10-30T22:03:58.4677887+05:30",
+        "fare": 6000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 190,
+        "toStationName": "Dashrathpuri",
+        "fareDate": "2023-10-30T22:03:58.4677909+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 182,
+        "toStationName": "IIT",
+        "fareDate": "2023-10-30T22:03:58.467793+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 192,
+        "toStationName": "Janakpuri West L-8",
+        "fareDate": "2023-10-30T22:03:58.4677952+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 176,
+        "toStationName": "Kalkaji Mandir L-8",
+        "fareDate": "2023-10-30T22:03:58.4677973+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 183,
+        "toStationName": "R.K. Puram",
+        "fareDate": "2023-10-30T22:03:58.467799+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 177,
+        "toStationName": "Nehru Enclave",
+        "fareDate": "2023-10-30T22:03:58.4678041+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 178,
+        "toStationName": "G.K.Enclave-I",
+        "fareDate": "2023-10-30T22:03:58.4678067+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 179,
+        "toStationName": "Chirag Delhi         ",
+        "fareDate": "2023-10-30T22:03:58.4678088+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 180,
+        "toStationName": "Panchsheel Park      ",
+        "fareDate": "2023-10-30T22:03:58.467811+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 184,
+        "toStationName": "Munirka",
+        "fareDate": "2023-10-30T22:03:58.4678131+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 186,
+        "toStationName": "Shankar Vihar",
+        "fareDate": "2023-10-30T22:03:58.4678157+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 187,
+        "toStationName": "IGD Airport",
+        "fareDate": "2023-10-30T22:03:58.4678178+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 188,
+        "toStationName": "Sadar Bazar",
+        "fareDate": "2023-10-30T22:03:58.4678199+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 189,
+        "toStationName": "Palam",
+        "fareDate": "2023-10-30T22:03:58.4678221+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 191,
+        "toStationName": "Dabri Mor",
+        "fareDate": "2023-10-30T22:03:58.4678242+05:30",
+        "fare": 4000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 185,
+        "toStationName": "Vasant Vihar",
+        "fareDate": "2023-10-30T22:03:58.4678298+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 249,
+        "toStationName": "Najafgarh",
+        "fareDate": "2023-10-30T22:03:58.4678323+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 248,
+        "toStationName": "Nangli",
+        "fareDate": "2023-10-30T22:03:58.4678345+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 250,
+        "toStationName": "Dhansa Bus Stand",
+        "fareDate": "2023-10-30T22:03:58.467837+05:30",
+        "fare": 5000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 138,
+        "toStationName": "Sikanderpur",
+        "fareDate": "2023-10-30T22:03:58.4678392+05:30",
+        "fare": 8000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 140,
+        "toStationName": "Belvedere Towers",
+        "fareDate": "2023-10-30T22:03:58.4678417+05:30",
+        "fare": 8000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 141,
+        "toStationName": "Cyber City",
+        "fareDate": "2023-10-30T22:03:58.4678438+05:30",
+        "fare": 8000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 142,
+        "toStationName": "Moulsari Avenue",
+        "fareDate": "2023-10-30T22:03:58.4678456+05:30",
+        "fare": 8000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 139,
+        "toStationName": "Phase-2",
+        "fareDate": "2023-10-30T22:03:58.4678477+05:30",
+        "fare": 8000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 143,
+        "toStationName": "Phase-3",
+        "fareDate": "2023-10-30T22:03:58.4678498+05:30",
+        "fare": 8000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 159,
+        "toStationName": "Phase-1",
+        "fareDate": "2023-10-30T22:03:58.467855+05:30",
+        "fare": 8000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 160,
+        "toStationName": "Sector 42-43",
+        "fareDate": "2023-10-30T22:03:58.4678571+05:30",
+        "fare": 8000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 161,
+        "toStationName": "Sector 53-54",
+        "fareDate": "2023-10-30T22:03:58.4678592+05:30",
+        "fare": 8000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 162,
+        "toStationName": "Sector 54 Chowk",
+        "fareDate": "2023-10-30T22:03:58.4678609+05:30",
+        "fare": 8000
+      },
+      {
+        "fromStationID": 17,
+        "fromStationName": "Rohini West",
+        "toStationID": 163,
+        "toStationName": "Sector 55-56",
+        "fareDate": "2023-10-30T22:03:58.4678631+05:30",
+        "fare": 8000
+      }
+    ]
+  }
+}

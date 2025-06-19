@@ -1,0 +1,9 @@
+{
+  "url": "https://messages.delhitransport.in/v2/create/",
+  "method": "GET",
+  "response": {
+    "description": "OTP sent successfully",
+    "expires_after": 5,
+    "message": "Success"
+  }
+}

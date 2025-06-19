@@ -1,0 +1,25 @@
+{
+  "url": "https://securegw-stage.paytm.in/v3/order/status",
+  "method": "POST",
+  "response": {
+    "head": {
+      "responseTimestamp": "1698600598962",
+      "version": "v1",
+      "signature": "DUMMY_SIGNATURE"
+    },
+    "body": {
+      "resultInfo": {
+        "resultStatus": "TXN_SUCCESS",
+        "resultCode": "01",
+        "resultMsg": "Txn Success"
+      },
+      "txnId": "DUMMY_TXN_ID",
+      "orderId": "611533",
+      "txnAmount": "100.00",
+      "txnType": "SALE",
+      "mid": "DUMMY",
+      "refundAmt": "0.0",
+      "txnDate": "2023-10-29 22:59:58.0"
+    }
+  }
+}

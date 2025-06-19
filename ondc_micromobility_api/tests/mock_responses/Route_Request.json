@@ -1,0 +1,3162 @@
+{
+  "url": "http://tg.thalesafc.com/Route_Request",
+  "method": "POST",
+  "response": {
+    "route_Response": [
+      {
+        "error_Code": 0,
+        "error_Text": "Success",
+        "operator_Id": 2,
+        "operator_Type": 2,
+        "product_Id": "1",
+        "validity": "5000",
+        "duration": "1000",
+        "noOfRoutes": null,
+        "noOfStations": 0,
+        "route_Details": [
+          {
+            "route": [
+              {
+                "route_Id": 1,
+                "route_Name": "LINE 1",
+                "service_Id": "1 - Single Journey",
+                "station": [
+                  {
+                    "station_ID": 251,
+                    "station_Name": "Station251",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 252,
+                    "station_Name": "Station252",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 253,
+                    "station_Name": "Station253",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 255,
+                    "station_Name": "Station255",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 2,
+                    "station_Name": "Welcome",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 3,
+                    "station_Name": "Seelampur",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 4,
+                    "station_Name": "Shastri Park",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 5,
+                    "station_Name": "Kashmere Gate Rail",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 6,
+                    "station_Name": "Tis Hazari",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 7,
+                    "station_Name": "Pul Bangash",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 8,
+                    "station_Name": "Pratap Nagar",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 10,
+                    "station_Name": "Inderlok",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 11,
+                    "station_Name": "Kanhaiya Nagar",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 12,
+                    "station_Name": "Keshav Puram",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 13,
+                    "station_Name": "Netaji Subhash Place",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 14,
+                    "station_Name": "Kohat Enclave",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 16,
+                    "station_Name": "Rohini East",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 17,
+                    "station_Name": "Rohini West",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 18,
+                    "station_Name": "Rithala",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 59,
+                    "station_Name": "Mansarovar Park",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 60,
+                    "station_Name": "Jhilmil",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 61,
+                    "station_Name": "Dilshad Garden",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 15,
+                    "station_Name": "Pitampura",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 254,
+                    "station_Name": "Station254",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 9,
+                    "station_Name": "Shastri Nagar",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 240,
+                    "station_Name": "Maj M.Sharma-Rajendra Nagar",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 245,
+                    "station_Name": "Shaheed Sthal-New Bus Adda",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 1,
+                    "station_Name": "Shahdara",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 181,
+                    "station_Name": "Station181",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 238,
+                    "station_Name": "Shahid Nagar",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 239,
+                    "station_Name": "Raj Bagh",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 241,
+                    "station_Name": "Shyam Park",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 242,
+                    "station_Name": "Mohan Nagar",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 243,
+                    "station_Name": "Arthala",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 244,
+                    "station_Name": "Hindon River",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  }
+                ]
+              },
+              {
+                "route_Id": 2,
+                "route_Name": "LINE 2",
+                "service_Id": "1 - Single Journey",
+                "station": [
+                  {
+                    "station_ID": 19,
+                    "station_Name": "Vishwa vidalaya",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 20,
+                    "station_Name": "Vidhan Sabha",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 21,
+                    "station_Name": "Civil Lines",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 22,
+                    "station_Name": "Kashmere Gate Metro ",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 23,
+                    "station_Name": "Chandani Chowk",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 24,
+                    "station_Name": "Chawri Bazar",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 25,
+                    "station_Name": "New Delhi",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 26,
+                    "station_Name": "Rajiv Chowk",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 27,
+                    "station_Name": "Patel Chowk",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 28,
+                    "station_Name": "Central Secretariat",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 63,
+                    "station_Name": "Adarsh Nagar",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 64,
+                    "station_Name": "Azadpur",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 65,
+                    "station_Name": "Model Town",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 83,
+                    "station_Name": "Udyog Bhavan",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 85,
+                    "station_Name": "Jor Bagh",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 87,
+                    "station_Name": "AIIMS",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 88,
+                    "station_Name": "Green Park",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 90,
+                    "station_Name": "Malaviya Nagar",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 91,
+                    "station_Name": "Saket",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 92,
+                    "station_Name": "Qutab Minar",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 93,
+                    "station_Name": "Chhatar Pur",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 94,
+                    "station_Name": "Sultan Pur",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 95,
+                    "station_Name": "Ghitorny",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 96,
+                    "station_Name": "Arjan Garh",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 97,
+                    "station_Name": "Guru DronaCharya",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 98,
+                    "station_Name": "Sikandar Pur",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 100,
+                    "station_Name": "Iffco Chowk",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 101,
+                    "station_Name": "Huda City Centre",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 62,
+                    "station_Name": "JahangirPuri",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 86,
+                    "station_Name": "Dilli Haat-INA",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 66,
+                    "station_Name": "Guru Tegh Bahadur Nagar",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 84,
+                    "station_Name": "Lok Kalyan Marg",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 89,
+                    "station_Name": "Hauz Khas",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 147,
+                    "station_Name": "Haiderpur Badli Mor",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 149,
+                    "station_Name": "Samaypur Badli",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 99,
+                    "station_Name": "MG Road",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 148,
+                    "station_Name": "Rohini Sector-18-19",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  }
+                ]
+              },
+              {
+                "route_Id": 3,
+                "route_Name": "LINE 3",
+                "service_Id": "1 - Single Journey",
+                "station": [
+                  {
+                    "station_ID": 29,
+                    "station_Name": "Indraprastha",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 31,
+                    "station_Name": "Mandi House",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 32,
+                    "station_Name": "Barakhamba Road",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 34,
+                    "station_Name": "Jhandewalan",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 35,
+                    "station_Name": "Karol Bagh",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 36,
+                    "station_Name": "Rajendra Place",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 37,
+                    "station_Name": "Patel Nagar",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 38,
+                    "station_Name": "Shadipur",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 40,
+                    "station_Name": "Moti Nagar",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 41,
+                    "station_Name": "Ramesh Nagar",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 42,
+                    "station_Name": "Rajouri Garden",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 43,
+                    "station_Name": "Tagore Garden",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 44,
+                    "station_Name": "Subhash Nagar",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 45,
+                    "station_Name": "Tilak Nagar",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 50,
+                    "station_Name": "Nawada",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 51,
+                    "station_Name": "Dwarka Mor",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 52,
+                    "station_Name": "Dwarka",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 72,
+                    "station_Name": "Yamuna Bank",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 73,
+                    "station_Name": "Akshardham",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 76,
+                    "station_Name": "New Ashok Nagar",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 80,
+                    "station_Name": "Botanical Garden",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 81,
+                    "station_Name": "Golf Course",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 82,
+                    "station_Name": "City Centre",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 46,
+                    "station_Name": "Janak Puri East",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 47,
+                    "station_Name": "Janak Puri West",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 48,
+                    "station_Name": "Uttam Ngr East",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 49,
+                    "station_Name": "Uttam Ngr West",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 75,
+                    "station_Name": "Mayur V Extn",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 33,
+                    "station_Name": "R K Ashram Marg",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 53,
+                    "station_Name": "Dwarka Sec14",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 134,
+                    "station_Name": "Dwarka Sec08",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 54,
+                    "station_Name": "Dwarka Sec13",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 55,
+                    "station_Name": "Dwarka Sec12",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 56,
+                    "station_Name": "Dwarka Sec11",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 57,
+                    "station_Name": "Dwarka Sec10",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 58,
+                    "station_Name": "Dwarka Sec09",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 77,
+                    "station_Name": "Noida Sec15",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 78,
+                    "station_Name": "Noida Sec16",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 79,
+                    "station_Name": "Noida Sec18",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 74,
+                    "station_Name": "Mayur V Ph1",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 135,
+                    "station_Name": "Dwarka Sec21",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 30,
+                    "station_Name": "Supreme Court",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 39,
+                    "station_Name": "BUS",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 225,
+                    "station_Name": "Sector 34 Noida",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 226,
+                    "station_Name": "Sector 52 Noida",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 227,
+                    "station_Name": "Sector 61 Noida",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 228,
+                    "station_Name": "Sector 59 Noida",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 229,
+                    "station_Name": "Sector 62 Noida",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 230,
+                    "station_Name": "Noida Electronic City",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  }
+                ]
+              },
+              {
+                "route_Id": 4,
+                "route_Name": "LINE 4",
+                "service_Id": "1 - Single Journey",
+                "station": [
+                  {
+                    "station_ID": 136,
+                    "station_Name": "Kaushambi",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 137,
+                    "station_Name": "Vaishali",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 67,
+                    "station_Name": "Anand Vihar ISBT",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 68,
+                    "station_Name": "Karkardooma",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 69,
+                    "station_Name": "Preet Vihar",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 70,
+                    "station_Name": "Nirman Vihar",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 71,
+                    "station_Name": "Laxmi Nagar",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  }
+                ]
+              },
+              {
+                "route_Id": 5,
+                "route_Name": "LINE 5",
+                "service_Id": "1 - Single Journey",
+                "station": [
+                  {
+                    "station_ID": 120,
+                    "station_Name": "Punjabi Bagh",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 121,
+                    "station_Name": "Shivaji Park",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 122,
+                    "station_Name": "Madi Pur",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 125,
+                    "station_Name": "Peera Garhi",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 126,
+                    "station_Name": "Udyog Nagar",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 127,
+                    "station_Name": "Surajmal Stadium",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 128,
+                    "station_Name": "Nangloi",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 130,
+                    "station_Name": "Rajdhani Park",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 131,
+                    "station_Name": "Mundka",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 132,
+                    "station_Name": "Sat Guru Ram Singh",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 119,
+                    "station_Name": "Ashok Park Main",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 129,
+                    "station_Name": "Nangloi Railway Station",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 237,
+                    "station_Name": "Brigadier Hoshiyar Singh",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 118,
+                    "station_Name": "Inderlok New",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 123,
+                    "station_Name": "Paschim V West",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 124,
+                    "station_Name": "Paschim V East",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 236,
+                    "station_Name": "Bahadurgarh City",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 235,
+                    "station_Name": "Pandit Shri Ram Sharma",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 133,
+                    "station_Name": "Kirti Nagar New",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 231,
+                    "station_Name": "Mundka IA",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 232,
+                    "station_Name": "Ghevra",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 233,
+                    "station_Name": "Tikri Kalan ",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 234,
+                    "station_Name": "Tikri Border ",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  }
+                ]
+              },
+              {
+                "route_Id": 6,
+                "route_Name": "LINE 6",
+                "service_Id": "1 - Single Journey",
+                "station": [
+                  {
+                    "station_ID": 103,
+                    "station_Name": "Khan Market",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 104,
+                    "station_Name": "JLN Stadium",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 105,
+                    "station_Name": "Jangpura",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 106,
+                    "station_Name": "Lajpat Nagar",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 107,
+                    "station_Name": "Moolchand",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 109,
+                    "station_Name": "Nehru Place",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 110,
+                    "station_Name": "Kalkaji Mandir",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 112,
+                    "station_Name": "Okhla",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 113,
+                    "station_Name": "Jashola",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 114,
+                    "station_Name": "Sarita Vihar",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 115,
+                    "station_Name": "Mohan Estate",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 116,
+                    "station_Name": "Tughlakabad",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 117,
+                    "station_Name": "Badarpur",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 144,
+                    "station_Name": "Janpath",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 146,
+                    "station_Name": "ITO",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 151,
+                    "station_Name": "NHPC Chowk",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 150,
+                    "station_Name": "Sarai",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 152,
+                    "station_Name": "Mewala Maharajpur",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 153,
+                    "station_Name": "Sector-28",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 154,
+                    "station_Name": "Badkal Mor",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 155,
+                    "station_Name": "Old Faridabad",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 246,
+                    "station_Name": "Sant Surdas Sihi",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 102,
+                    "station_Name": "Central SecNew",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 111,
+                    "station_Name": "Govind Puri",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 145,
+                    "station_Name": "Mandi House New",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 108,
+                    "station_Name": "Kailash Colony",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 247,
+                    "station_Name": "Raja Nahar Singh-Ballabhgarh",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 156,
+                    "station_Name": "Neelam Chowk Ajronda",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 157,
+                    "station_Name": "Bata Chowk",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 158,
+                    "station_Name": "Escorts Mujesar",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 164,
+                    "station_Name": "Delhi Gate",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 165,
+                    "station_Name": "Jama Masjid",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 166,
+                    "station_Name": "Lal Quila",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 167,
+                    "station_Name": "Kashmere Gate",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  }
+                ]
+              },
+              {
+                "route_Id": 7,
+                "route_Name": "LINE 7",
+                "service_Id": "1 - Single Journey",
+                "station": [
+                  {
+                    "station_ID": 214,
+                    "station_Name": "East Vinod Nagar",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 215,
+                    "station_Name": "Mandawali-West Vinod Nagar",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 199,
+                    "station_Name": "ESI-Basaidarapur",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 205,
+                    "station_Name": "SMV Moti Bagh",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 211,
+                    "station_Name": "Sarai Kale Khan Nizamuddin",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 212,
+                    "station_Name": "Mayur VPkt1",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 206,
+                    "station_Name": "Bhikaji Cama Place",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 207,
+                    "station_Name": "Sarojini Nagar",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 208,
+                    "station_Name": "South Extension",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 221,
+                    "station_Name": "Maujpur",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 196,
+                    "station_Name": "Netaji Subhash Place L-7",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 200,
+                    "station_Name": "Rajouri Garden L-7",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 194,
+                    "station_Name": "Azadpur L-7",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 209,
+                    "station_Name": "Vinobapuri",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 198,
+                    "station_Name": "Punjabi Bagh West",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 193,
+                    "station_Name": "Majlis Park",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 195,
+                    "station_Name": "Shalimar Bagh",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 197,
+                    "station_Name": "Shakurpur",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 201,
+                    "station_Name": "Mayapuri",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 202,
+                    "station_Name": "Narayana Vihar",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 203,
+                    "station_Name": "Delhi Cantt",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 204,
+                    "station_Name": "DD South Campus",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 210,
+                    "station_Name": "Ashram",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 213,
+                    "station_Name": "Trilokpuri",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 216,
+                    "station_Name": "IP Extension",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 217,
+                    "station_Name": "Karkarduma Court",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 218,
+                    "station_Name": "Krishna Nagar",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 219,
+                    "station_Name": "East Azad Nagar",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 220,
+                    "station_Name": "Jaffarabad",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 222,
+                    "station_Name": "Gokulpuri",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 223,
+                    "station_Name": "Johari  Enclave",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 224,
+                    "station_Name": "Shiv Vihar",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  }
+                ]
+              },
+              {
+                "route_Id": 8,
+                "route_Name": "LINE 8",
+                "service_Id": "1 - Single Journey",
+                "station": [
+                  {
+                    "station_ID": 169,
+                    "station_Name": "Okhla Bird Sanctury",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 170,
+                    "station_Name": "Kalindi Kunj",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 171,
+                    "station_Name": "Jasola Vihar",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 172,
+                    "station_Name": "Okhla Vihar",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 173,
+                    "station_Name": "Jamia Millia Islamia",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 174,
+                    "station_Name": "Sukhdev Vihar",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 175,
+                    "station_Name": "Okhla NSIC",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 168,
+                    "station_Name": "Botanical Garden L-8",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 190,
+                    "station_Name": "Dashrathpuri",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 182,
+                    "station_Name": "IIT",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 192,
+                    "station_Name": "Janakpuri West L-8",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 176,
+                    "station_Name": "Kalkaji Mandir L-8",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 183,
+                    "station_Name": "R.K. Puram",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 177,
+                    "station_Name": "Nehru Enclave",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 178,
+                    "station_Name": "G.K.Enclave-I",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 179,
+                    "station_Name": "Chirag Delhi         ",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 180,
+                    "station_Name": "Panchsheel Park      ",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 184,
+                    "station_Name": "Munirka",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 186,
+                    "station_Name": "Shankar Vihar",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 187,
+                    "station_Name": "IGD Airport",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 188,
+                    "station_Name": "Sadar Bazar",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 189,
+                    "station_Name": "Palam",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 191,
+                    "station_Name": "Dabri Mor",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 185,
+                    "station_Name": "Vasant Vihar",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  }
+                ]
+              },
+              {
+                "route_Id": 9,
+                "route_Name": "LINE 9",
+                "service_Id": "1 - Single Journey",
+                "station": [
+                  {
+                    "station_ID": 249,
+                    "station_Name": "Najafgarh",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 248,
+                    "station_Name": "Nangli",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 250,
+                    "station_Name": "Dhansa Bus Stand",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  }
+                ]
+              },
+              {
+                "route_Id": 29,
+                "route_Name": "Line 29",
+                "service_Id": "1 - Single Journey",
+                "station": [
+                  {
+                    "station_ID": 138,
+                    "station_Name": "Sikanderpur",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 140,
+                    "station_Name": "Belvedere Towers",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 141,
+                    "station_Name": "Cyber City",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 142,
+                    "station_Name": "Moulsari Avenue",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 139,
+                    "station_Name": "Phase-2",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 143,
+                    "station_Name": "Phase-3",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 159,
+                    "station_Name": "Phase-1",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 160,
+                    "station_Name": "Sector 42-43",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 161,
+                    "station_Name": "Sector 53-54",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 162,
+                    "station_Name": "Sector 54 Chowk",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  },
+                  {
+                    "station_ID": 163,
+                    "station_Name": "Sector 55-56",
+                    "station_Location": "XXXXXXX,YYYYYYYY",
+                    "isInterChange": false
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "station_Details": [
+          {
+            "station": [
+              {
+                "station_ID": 251,
+                "station_Name": "Station251",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 252,
+                "station_Name": "Station252",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 253,
+                "station_Name": "Station253",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 255,
+                "station_Name": "Station255",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 2,
+                "station_Name": "Welcome",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 3,
+                "station_Name": "Seelampur",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 4,
+                "station_Name": "Shastri Park",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 5,
+                "station_Name": "Kashmere Gate Rail",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 6,
+                "station_Name": "Tis Hazari",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 7,
+                "station_Name": "Pul Bangash",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 8,
+                "station_Name": "Pratap Nagar",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 10,
+                "station_Name": "Inderlok",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 11,
+                "station_Name": "Kanhaiya Nagar",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 12,
+                "station_Name": "Keshav Puram",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 13,
+                "station_Name": "Netaji Subhash Place",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 14,
+                "station_Name": "Kohat Enclave",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 16,
+                "station_Name": "Rohini East",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 17,
+                "station_Name": "Rohini West",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 18,
+                "station_Name": "Rithala",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 59,
+                "station_Name": "Mansarovar Park",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 60,
+                "station_Name": "Jhilmil",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 61,
+                "station_Name": "Dilshad Garden",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 15,
+                "station_Name": "Pitampura",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 254,
+                "station_Name": "Station254",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 9,
+                "station_Name": "Shastri Nagar",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 240,
+                "station_Name": "Maj M.Sharma-Rajendra Nagar",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 245,
+                "station_Name": "Shaheed Sthal-New Bus Adda",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 1,
+                "station_Name": "Shahdara",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 181,
+                "station_Name": "Station181",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 238,
+                "station_Name": "Shahid Nagar",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 239,
+                "station_Name": "Raj Bagh",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 241,
+                "station_Name": "Shyam Park",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 242,
+                "station_Name": "Mohan Nagar",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 243,
+                "station_Name": "Arthala",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 244,
+                "station_Name": "Hindon River",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 19,
+                "station_Name": "Vishwa vidalaya",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 20,
+                "station_Name": "Vidhan Sabha",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 21,
+                "station_Name": "Civil Lines",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 22,
+                "station_Name": "Kashmere Gate Metro ",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 23,
+                "station_Name": "Chandani Chowk",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 24,
+                "station_Name": "Chawri Bazar",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 25,
+                "station_Name": "New Delhi",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 26,
+                "station_Name": "Rajiv Chowk",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 27,
+                "station_Name": "Patel Chowk",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 28,
+                "station_Name": "Central Secretariat",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 63,
+                "station_Name": "Adarsh Nagar",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 64,
+                "station_Name": "Azadpur",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 65,
+                "station_Name": "Model Town",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 83,
+                "station_Name": "Udyog Bhavan",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 85,
+                "station_Name": "Jor Bagh",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 87,
+                "station_Name": "AIIMS",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 88,
+                "station_Name": "Green Park",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 90,
+                "station_Name": "Malaviya Nagar",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 91,
+                "station_Name": "Saket",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 92,
+                "station_Name": "Qutab Minar",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 93,
+                "station_Name": "Chhatar Pur",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 94,
+                "station_Name": "Sultan Pur",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 95,
+                "station_Name": "Ghitorny",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 96,
+                "station_Name": "Arjan Garh",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 97,
+                "station_Name": "Guru DronaCharya",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 98,
+                "station_Name": "Sikandar Pur",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 100,
+                "station_Name": "Iffco Chowk",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 101,
+                "station_Name": "Huda City Centre",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 62,
+                "station_Name": "JahangirPuri",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 86,
+                "station_Name": "Dilli Haat-INA",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 66,
+                "station_Name": "Guru Tegh Bahadur Nagar",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 84,
+                "station_Name": "Lok Kalyan Marg",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 89,
+                "station_Name": "Hauz Khas",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 147,
+                "station_Name": "Haiderpur Badli Mor",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 149,
+                "station_Name": "Samaypur Badli",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 99,
+                "station_Name": "MG Road",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 148,
+                "station_Name": "Rohini Sector-18-19",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 29,
+                "station_Name": "Indraprastha",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 31,
+                "station_Name": "Mandi House",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 32,
+                "station_Name": "Barakhamba Road",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 34,
+                "station_Name": "Jhandewalan",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 35,
+                "station_Name": "Karol Bagh",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 36,
+                "station_Name": "Rajendra Place",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 37,
+                "station_Name": "Patel Nagar",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 38,
+                "station_Name": "Shadipur",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 40,
+                "station_Name": "Moti Nagar",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 41,
+                "station_Name": "Ramesh Nagar",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 42,
+                "station_Name": "Rajouri Garden",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 43,
+                "station_Name": "Tagore Garden",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 44,
+                "station_Name": "Subhash Nagar",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 45,
+                "station_Name": "Tilak Nagar",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 50,
+                "station_Name": "Nawada",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 51,
+                "station_Name": "Dwarka Mor",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 52,
+                "station_Name": "Dwarka",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 72,
+                "station_Name": "Yamuna Bank",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 73,
+                "station_Name": "Akshardham",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 76,
+                "station_Name": "New Ashok Nagar",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 80,
+                "station_Name": "Botanical Garden",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 81,
+                "station_Name": "Golf Course",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 82,
+                "station_Name": "City Centre",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 46,
+                "station_Name": "Janak Puri East",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 47,
+                "station_Name": "Janak Puri West",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 48,
+                "station_Name": "Uttam Ngr East",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 49,
+                "station_Name": "Uttam Ngr West",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 75,
+                "station_Name": "Mayur V Extn",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 33,
+                "station_Name": "R K Ashram Marg",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 53,
+                "station_Name": "Dwarka Sec14",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 134,
+                "station_Name": "Dwarka Sec08",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 54,
+                "station_Name": "Dwarka Sec13",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 55,
+                "station_Name": "Dwarka Sec12",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 56,
+                "station_Name": "Dwarka Sec11",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 57,
+                "station_Name": "Dwarka Sec10",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 58,
+                "station_Name": "Dwarka Sec09",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 77,
+                "station_Name": "Noida Sec15",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 78,
+                "station_Name": "Noida Sec16",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 79,
+                "station_Name": "Noida Sec18",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 74,
+                "station_Name": "Mayur V Ph1",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 135,
+                "station_Name": "Dwarka Sec21",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 30,
+                "station_Name": "Supreme Court",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 39,
+                "station_Name": "BUS",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 225,
+                "station_Name": "Sector 34 Noida",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 226,
+                "station_Name": "Sector 52 Noida",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 227,
+                "station_Name": "Sector 61 Noida",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 228,
+                "station_Name": "Sector 59 Noida",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 229,
+                "station_Name": "Sector 62 Noida",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 230,
+                "station_Name": "Noida Electronic City",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 136,
+                "station_Name": "Kaushambi",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 137,
+                "station_Name": "Vaishali",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 67,
+                "station_Name": "Anand Vihar ISBT",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 68,
+                "station_Name": "Karkardooma",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 69,
+                "station_Name": "Preet Vihar",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 70,
+                "station_Name": "Nirman Vihar",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 71,
+                "station_Name": "Laxmi Nagar",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 120,
+                "station_Name": "Punjabi Bagh",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 121,
+                "station_Name": "Shivaji Park",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 122,
+                "station_Name": "Madi Pur",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 125,
+                "station_Name": "Peera Garhi",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 126,
+                "station_Name": "Udyog Nagar",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 127,
+                "station_Name": "Surajmal Stadium",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 128,
+                "station_Name": "Nangloi",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 130,
+                "station_Name": "Rajdhani Park",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 131,
+                "station_Name": "Mundka",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 132,
+                "station_Name": "Sat Guru Ram Singh",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 119,
+                "station_Name": "Ashok Park Main",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 129,
+                "station_Name": "Nangloi Railway Station",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 237,
+                "station_Name": "Brigadier Hoshiyar Singh",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 118,
+                "station_Name": "Inderlok New",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 123,
+                "station_Name": "Paschim V West",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 124,
+                "station_Name": "Paschim V East",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 236,
+                "station_Name": "Bahadurgarh City",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 235,
+                "station_Name": "Pandit Shri Ram Sharma",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 133,
+                "station_Name": "Kirti Nagar New",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 231,
+                "station_Name": "Mundka IA",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 232,
+                "station_Name": "Ghevra",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 233,
+                "station_Name": "Tikri Kalan ",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 234,
+                "station_Name": "Tikri Border ",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 103,
+                "station_Name": "Khan Market",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 104,
+                "station_Name": "JLN Stadium",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 105,
+                "station_Name": "Jangpura",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 106,
+                "station_Name": "Lajpat Nagar",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 107,
+                "station_Name": "Moolchand",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 109,
+                "station_Name": "Nehru Place",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 110,
+                "station_Name": "Kalkaji Mandir",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 112,
+                "station_Name": "Okhla",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 113,
+                "station_Name": "Jashola",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 114,
+                "station_Name": "Sarita Vihar",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 115,
+                "station_Name": "Mohan Estate",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 116,
+                "station_Name": "Tughlakabad",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 117,
+                "station_Name": "Badarpur",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 144,
+                "station_Name": "Janpath",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 146,
+                "station_Name": "ITO",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 151,
+                "station_Name": "NHPC Chowk",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 150,
+                "station_Name": "Sarai",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 152,
+                "station_Name": "Mewala Maharajpur",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 153,
+                "station_Name": "Sector-28",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 154,
+                "station_Name": "Badkal Mor",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 155,
+                "station_Name": "Old Faridabad",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 246,
+                "station_Name": "Sant Surdas Sihi",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 102,
+                "station_Name": "Central SecNew",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 111,
+                "station_Name": "Govind Puri",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 145,
+                "station_Name": "Mandi House New",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 108,
+                "station_Name": "Kailash Colony",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 247,
+                "station_Name": "Raja Nahar Singh-Ballabhgarh",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 156,
+                "station_Name": "Neelam Chowk Ajronda",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 157,
+                "station_Name": "Bata Chowk",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 158,
+                "station_Name": "Escorts Mujesar",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 164,
+                "station_Name": "Delhi Gate",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 165,
+                "station_Name": "Jama Masjid",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 166,
+                "station_Name": "Lal Quila",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 167,
+                "station_Name": "Kashmere Gate",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 214,
+                "station_Name": "East Vinod Nagar",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 215,
+                "station_Name": "Mandawali-West Vinod Nagar",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 199,
+                "station_Name": "ESI-Basaidarapur",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 205,
+                "station_Name": "SMV Moti Bagh",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 211,
+                "station_Name": "Sarai Kale Khan Nizamuddin",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 212,
+                "station_Name": "Mayur VPkt1",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 206,
+                "station_Name": "Bhikaji Cama Place",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 207,
+                "station_Name": "Sarojini Nagar",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 208,
+                "station_Name": "South Extension",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 221,
+                "station_Name": "Maujpur",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 196,
+                "station_Name": "Netaji Subhash Place L-7",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 200,
+                "station_Name": "Rajouri Garden L-7",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 194,
+                "station_Name": "Azadpur L-7",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 209,
+                "station_Name": "Vinobapuri",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 198,
+                "station_Name": "Punjabi Bagh West",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 193,
+                "station_Name": "Majlis Park",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 195,
+                "station_Name": "Shalimar Bagh",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 197,
+                "station_Name": "Shakurpur",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 201,
+                "station_Name": "Mayapuri",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 202,
+                "station_Name": "Narayana Vihar",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 203,
+                "station_Name": "Delhi Cantt",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 204,
+                "station_Name": "DD South Campus",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 210,
+                "station_Name": "Ashram",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 213,
+                "station_Name": "Trilokpuri",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 216,
+                "station_Name": "IP Extension",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 217,
+                "station_Name": "Karkarduma Court",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 218,
+                "station_Name": "Krishna Nagar",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 219,
+                "station_Name": "East Azad Nagar",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 220,
+                "station_Name": "Jaffarabad",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 222,
+                "station_Name": "Gokulpuri",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 223,
+                "station_Name": "Johari  Enclave",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 224,
+                "station_Name": "Shiv Vihar",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 169,
+                "station_Name": "Okhla Bird Sanctury",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 170,
+                "station_Name": "Kalindi Kunj",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 171,
+                "station_Name": "Jasola Vihar",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 172,
+                "station_Name": "Okhla Vihar",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 173,
+                "station_Name": "Jamia Millia Islamia",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 174,
+                "station_Name": "Sukhdev Vihar",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 175,
+                "station_Name": "Okhla NSIC",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 168,
+                "station_Name": "Botanical Garden L-8",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 190,
+                "station_Name": "Dashrathpuri",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 182,
+                "station_Name": "IIT",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 192,
+                "station_Name": "Janakpuri West L-8",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 176,
+                "station_Name": "Kalkaji Mandir L-8",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 183,
+                "station_Name": "R.K. Puram",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 177,
+                "station_Name": "Nehru Enclave",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 178,
+                "station_Name": "G.K.Enclave-I",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 179,
+                "station_Name": "Chirag Delhi         ",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 180,
+                "station_Name": "Panchsheel Park      ",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 184,
+                "station_Name": "Munirka",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 186,
+                "station_Name": "Shankar Vihar",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 187,
+                "station_Name": "IGD Airport",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 188,
+                "station_Name": "Sadar Bazar",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 189,
+                "station_Name": "Palam",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 191,
+                "station_Name": "Dabri Mor",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 185,
+                "station_Name": "Vasant Vihar",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 249,
+                "station_Name": "Najafgarh",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 248,
+                "station_Name": "Nangli",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 250,
+                "station_Name": "Dhansa Bus Stand",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 138,
+                "station_Name": "Sikanderpur",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 140,
+                "station_Name": "Belvedere Towers",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 141,
+                "station_Name": "Cyber City",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 142,
+                "station_Name": "Moulsari Avenue",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 139,
+                "station_Name": "Phase-2",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 143,
+                "station_Name": "Phase-3",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 159,
+                "station_Name": "Phase-1",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 160,
+                "station_Name": "Sector 42-43",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 161,
+                "station_Name": "Sector 53-54",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 162,
+                "station_Name": "Sector 54 Chowk",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              },
+              {
+                "station_ID": 163,
+                "station_Name": "Sector 55-56",
+                "station_Location": "XXXXXXX,YYYYYYYY",
+                "isInterChange": false
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "route_Response_Signature": "JAaJwotEWK8JoTlOdofg84TxTOrVr7cZXrjstB64Ni8Em3yhtDmaae7MS85nKhQxbGiUpMb9JForDrpKPuDDlhsmRoenif2rvv7c/RJGzO7kLU++UQopLbHWJbzvPBNodncV8Qk4BgTjQhcltLai/lLxAyjf3sWJ2RdKYi4I9Yw="
+  }
+}

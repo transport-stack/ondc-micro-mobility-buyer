@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: api-service
+  template:
+    metadata:
+      labels:
+        app: api-service
+    spec:
+      containers:
+        - name: api-service
+          image: 178761578367.dkr.ecr.ap-south-1.amazonaws.com/chartr-ondc-delhi-buses-buyer:staging
+          imagePullPolicy: Always
+          args: ["api-service", "--workers", "2", "--timeout", "60"]
+          env:
+            - name: DJANGO_SETTINGS_MODULE
+              value: settings.base
+          envFrom:
+            - configMapRef:
+                name: env-secrets
+          ports:
+            - containerPort: 8000
+              name: api-service
+          resources:
+            requests:
+              memory: "256Mi"
+              cpu: "100m"
+            limits:
+              memory: "500Mi"
+              cpu: "500m"

@@ -1,0 +1,19 @@
+{
+  "url": "http://tg.thalesafc.com/Ticket_Request",
+  "method": "POST",
+  "response": {
+    "error_Code": 0,
+    "error_Text": "Success",
+    "qR_Payload": {
+      "carbonEmission": "Congratulations! You are saving around 416 gm CO2 emission",
+      "carbonEmissionValue": 416,
+      "qrRecord": [
+        {
+          "qR_Ticket_No": "9876597DUMMY4632",
+          "qR_Ticket_Block": "BAkAAgKv043dc6vps/Jno5M8m6Iq0Vu8rQ4KlwIwsDEXsdI7f+DuLZ1c6jIBO1c5hoZLQR0="
+        }
+      ]
+    },
+    "qR_Signature": "sIQ7dN/0baVh9SIVuG1fvb/wtbOI+ifBo6h3psn9Z2RqscZq0jLLDKLcS+xISGQ1lh0KAuibvEnteN4BfAotJysPMIBSb7o1xY/Euxp1yIZ1gBm5jLRnbmsOIVGUdX42ygan1mNPbjHBwRTkg88DafHZQSG2pGhu19O9N+sHH3E="
+  }
+}

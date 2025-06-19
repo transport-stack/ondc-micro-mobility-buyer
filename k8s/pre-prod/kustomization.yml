@@ -1,0 +1,12 @@
+namespace: pre-prod-ondc-buyer
+commonLabels:
+  env: pre-prod
+
+resources:
+  - namespace.yml
+  - ../base
+
+configMapGenerator:
+- name: env-secrets
+  envs:
+    - ./.env

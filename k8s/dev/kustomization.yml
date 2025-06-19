@@ -1,0 +1,12 @@
+namespace: pre-prod-dts-ondc-buyer-ptx
+commonLabels:
+  env: dev
+
+resources:
+  - namespace.yml
+  - ../base
+
+configMapGenerator:
+- name: env-secrets
+  envs:
+    - ./.env

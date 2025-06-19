@@ -1,0 +1,48 @@
+{
+    "context": {
+        "location": {
+            "country": {
+                "code": "IND"
+            },
+            "city": {
+                "code": "std:011"
+            }
+        },
+        "domain": "ONDC:TRV11",
+        "timestamp": "2024-04-30T05:15:34.451Z",
+        "bap_id": "dev-ondc-buyer-api.chartr.in",
+        "transaction_id": "5987f3fb-6433-4r41-bc1f-a0f14a1d04ee",
+        "message_id": "65a02d14-a8f4-41c8-be66-a16441fc9fe2",
+        "version": "2.0.0",
+        "action": "search",
+        "bap_uri": "https://dev-ondc-buyer-api.chartr.in/api/v1/ondc/buyer",
+        "ttl": "PT30S"
+    },
+    "message": {
+        "intent": {
+            "fulfillment": {
+                "vehicle": {
+                    "category": "BUS"
+                }
+            },
+            "payment": {
+                "tags": [
+                    {
+                        "descriptor": {
+                            "code": "BUYER_FINDER_FEES"
+                        },
+                        "display": false,
+                        "list": [
+                            {
+                                "descriptor": {
+                                    "code": "BUYER_FINDER_FEES_PERCENTAGE"
+                                },
+                                "value": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

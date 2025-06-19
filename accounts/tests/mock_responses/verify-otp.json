@@ -1,0 +1,10 @@
+{
+  "url": "https://messages.delhitransport.in/v2/verify/",
+  "method": "POST",
+  "response": {
+    "description": "User verified successfully",
+    "long_signature": "473d4fd17bacc4ec59c817d6e838a52c76a8133779d063c19e7ef63d8abd0ac0.1739073726",
+    "message": "Success",
+    "signature": "473d4fd17bacc4ec59c817d6e838a52c76a8133779d063c19e7ef63d8abd0ac0.1739073726"
+  }
+}

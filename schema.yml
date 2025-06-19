@@ -1,0 +1,1340 @@
+openapi: 3.0.3
+info:
+  title: Chartr's PTx Core API
+  version: 1.0.0
+  description: Transit, Payments, Tickets and Users API for Chartr's PTx Core
+paths:
+  /api/schema/:
+    get:
+      operationId: api_schema_retrieve
+      description: |-
+        OpenApi3 schema for this API. Format can be selected via content negotiation.
+
+        - YAML: application/vnd.oai.openapi
+        - JSON: application/vnd.oai.openapi+json
+      parameters:
+      - in: query
+        name: format
+        schema:
+          type: string
+          enum:
+          - json
+          - yaml
+      - in: query
+        name: lang
+        schema:
+          type: string
+          enum:
+          - af
+          - ar
+          - ar-dz
+          - ast
+          - az
+          - be
+          - bg
+          - bn
+          - br
+          - bs
+          - ca
+          - ckb
+          - cs
+          - cy
+          - da
+          - de
+          - dsb
+          - el
+          - en
+          - en-au
+          - en-gb
+          - eo
+          - es
+          - es-ar
+          - es-co
+          - es-mx
+          - es-ni
+          - es-ve
+          - et
+          - eu
+          - fa
+          - fi
+          - fr
+          - fy
+          - ga
+          - gd
+          - gl
+          - he
+          - hi
+          - hr
+          - hsb
+          - hu
+          - hy
+          - ia
+          - id
+          - ig
+          - io
+          - is
+          - it
+          - ja
+          - ka
+          - kab
+          - kk
+          - km
+          - kn
+          - ko
+          - ky
+          - lb
+          - lt
+          - lv
+          - mk
+          - ml
+          - mn
+          - mr
+          - ms
+          - my
+          - nb
+          - ne
+          - nl
+          - nn
+          - os
+          - pa
+          - pl
+          - pt
+          - pt-br
+          - ro
+          - ru
+          - sk
+          - sl
+          - sq
+          - sr
+          - sr-latn
+          - sv
+          - sw
+          - ta
+          - te
+          - tg
+          - th
+          - tk
+          - tr
+          - tt
+          - udm
+          - uk
+          - ur
+          - uz
+          - vi
+          - zh-hans
+          - zh-hant
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/vnd.oai.openapi:
+              schema:
+                type: object
+                additionalProperties: {}
+            application/yaml:
+              schema:
+                type: object
+                additionalProperties: {}
+            application/vnd.oai.openapi+json:
+              schema:
+                type: object
+                additionalProperties: {}
+            application/json:
+              schema:
+                type: object
+                additionalProperties: {}
+          description: ''
+  /rapido/book:
+    post:
+      operationId: rapido_book_create
+      tags:
+      - rapido
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/BookRequest'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BookRequest'
+          description: ''
+  /rapido/cancel:
+    post:
+      operationId: rapido_cancel_create
+      tags:
+      - rapido
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CancelRequest'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CancelRequest'
+          description: ''
+  /rapido/estimate:
+    post:
+      operationId: rapido_estimate_create
+      tags:
+      - rapido
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/EstimateRequest'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/EstimateRequest'
+          description: ''
+  /ticket/{id}/:
+    get:
+      operationId: ticket_retrieve
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this ticket.
+        required: true
+      tags:
+      - ticket
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Ticket'
+          description: ''
+    put:
+      operationId: ticket_update
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this ticket.
+        required: true
+      tags:
+      - ticket
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Ticket'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Ticket'
+          description: ''
+    patch:
+      operationId: ticket_partial_update
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this ticket.
+        required: true
+      tags:
+      - ticket
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedTicket'
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Ticket'
+          description: ''
+  /transaction/{gateway_order_id}/:
+    get:
+      operationId: transaction_retrieve
+      parameters:
+      - in: path
+        name: gateway_order_id
+        schema:
+          type: string
+        description: A unique value identifying this Transaction.
+        required: true
+      tags:
+      - transaction
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Transaction'
+          description: ''
+    put:
+      operationId: transaction_update
+      parameters:
+      - in: path
+        name: gateway_order_id
+        schema:
+          type: string
+        description: A unique value identifying this Transaction.
+        required: true
+      tags:
+      - transaction
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Transaction'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Transaction'
+          description: ''
+    patch:
+      operationId: transaction_partial_update
+      parameters:
+      - in: path
+        name: gateway_order_id
+        schema:
+          type: string
+        description: A unique value identifying this Transaction.
+        required: true
+      tags:
+      - transaction
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedTransaction'
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Transaction'
+          description: ''
+  /transit-option/{id}/:
+    get:
+      operationId: transit_option_retrieve
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this transit option.
+        required: true
+      tags:
+      - transit-option
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TransitOption'
+          description: ''
+    put:
+      operationId: transit_option_update
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this transit option.
+        required: true
+      tags:
+      - transit-option
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TransitOption'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TransitOption'
+          description: ''
+    patch:
+      operationId: transit_option_partial_update
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this transit option.
+        required: true
+      tags:
+      - transit-option
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedTransitOption'
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TransitOption'
+          description: ''
+  /transit-provider/{id}/:
+    get:
+      operationId: transit_provider_retrieve
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this transit provider.
+        required: true
+      tags:
+      - transit-provider
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TransitProvider'
+          description: ''
+    put:
+      operationId: transit_provider_update
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this transit provider.
+        required: true
+      tags:
+      - transit-provider
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TransitProvider'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TransitProvider'
+          description: ''
+    patch:
+      operationId: transit_provider_partial_update
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this transit provider.
+        required: true
+      tags:
+      - transit-provider
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedTransitProvider'
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TransitProvider'
+          description: ''
+  /trip/{id}/:
+    get:
+      operationId: trip_retrieve
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this trip.
+        required: true
+      tags:
+      - trip
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Trip'
+          description: ''
+    put:
+      operationId: trip_update
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this trip.
+        required: true
+      tags:
+      - trip
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Trip'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Trip'
+          description: ''
+    patch:
+      operationId: trip_partial_update
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this trip.
+        required: true
+      tags:
+      - trip
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedTrip'
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Trip'
+          description: ''
+  /user/{id}/:
+    get:
+      operationId: user_retrieve
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this user.
+        required: true
+      tags:
+      - user
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+          description: ''
+    put:
+      operationId: user_update
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this user.
+        required: true
+      tags:
+      - user
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/User'
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+          description: ''
+    patch:
+      operationId: user_partial_update
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this user.
+        required: true
+      tags:
+      - user
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedUser'
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+          description: ''
+components:
+  schemas:
+    BookRequest:
+      type: object
+      properties:
+        user:
+          $ref: '#/components/schemas/RapidoUser'
+        pickup_location:
+          $ref: '#/components/schemas/Location'
+        drop_location:
+          $ref: '#/components/schemas/Location'
+        service_type:
+          $ref: '#/components/schemas/ServiceTypeEnum'
+      required:
+      - drop_location
+      - pickup_location
+      - service_type
+      - user
+    CancelRequest:
+      type: object
+      properties:
+        orderId:
+          type: string
+          format: uuid
+        cancelReason:
+          type: string
+          maxLength: 255
+      required:
+      - cancelReason
+      - orderId
+    EstimateRequest:
+      type: object
+      properties:
+        pickup_location:
+          $ref: '#/components/schemas/Location'
+        drop_location:
+          $ref: '#/components/schemas/Location'
+        service_type:
+          $ref: '#/components/schemas/ServiceTypeEnum'
+      required:
+      - drop_location
+      - pickup_location
+      - service_type
+    FareBreakup:
+      type: object
+      properties:
+        id:
+          type: integer
+          readOnly: true
+        basic:
+          type: number
+          format: double
+          minimum: 0
+        toll:
+          type: number
+          format: double
+          minimum: 0
+        convenience_charge:
+          type: number
+          format: double
+          minimum: 0
+        convenience_charge_tax:
+          type: number
+          format: double
+          minimum: 0
+          description: Please enter calculated value.
+        discount:
+          type: number
+          format: double
+          minimum: 0
+        add_on:
+          type: number
+          format: double
+          minimum: 0
+        add_on_tax:
+          type: number
+          format: double
+          minimum: 0
+          description: Please enter calculated value.
+        cancellation_chg:
+          type: number
+          format: double
+          minimum: 0
+        franchisee_service_charge:
+          type: number
+          format: double
+          minimum: 0
+        amount:
+          type: number
+          format: double
+          minimum: 0
+      required:
+      - amount
+      - id
+    Location:
+      type: object
+      properties:
+        lat:
+          type: number
+          format: double
+          nullable: true
+        lng:
+          type: number
+          format: double
+          nullable: true
+      required:
+      - lat
+      - lng
+    PatchedTicket:
+      type: object
+      properties:
+        id:
+          type: integer
+          readOnly: true
+        pnr:
+          type: string
+          readOnly: true
+        ticket_type:
+          allOf:
+          - $ref: '#/components/schemas/TicketType'
+          readOnly: true
+        status:
+          type: integer
+          readOnly: true
+        fare:
+          allOf:
+          - $ref: '#/components/schemas/FareBreakup'
+          readOnly: true
+        start_location_name:
+          type: string
+          readOnly: true
+          nullable: true
+        start_location_lat:
+          type: string
+          format: decimal
+          pattern: ^-?\d{0,3}(?:\.\d{0,6})?$
+          readOnly: true
+          nullable: true
+        start_location_lng:
+          type: string
+          format: decimal
+          pattern: ^-?\d{0,3}(?:\.\d{0,6})?$
+          readOnly: true
+          nullable: true
+        end_location_name:
+          type: string
+          readOnly: true
+          nullable: true
+        end_location_lat:
+          type: string
+          format: decimal
+          pattern: ^-?\d{0,3}(?:\.\d{0,6})?$
+          readOnly: true
+          nullable: true
+        end_location_lng:
+          type: string
+          format: decimal
+          pattern: ^-?\d{0,3}(?:\.\d{0,6})?$
+          readOnly: true
+          nullable: true
+        transit_mode:
+          type: string
+        created_at:
+          type: string
+          format: date-time
+          readOnly: true
+        updated_at:
+          type: string
+          format: date-time
+          readOnly: true
+    PatchedTransaction:
+      type: object
+      properties:
+        gateway_order_id:
+          type: string
+          maxLength: 30
+        active:
+          type: boolean
+        created_at:
+          type: string
+          format: date-time
+          readOnly: true
+        updated_at:
+          type: string
+          format: date-time
+          readOnly: true
+        status:
+          $ref: '#/components/schemas/TransactionStatus'
+        amount:
+          type: number
+          format: double
+        type:
+          $ref: '#/components/schemas/TypeEnum'
+        gateway_transaction_id:
+          type: string
+          nullable: true
+          maxLength: 63
+        gateway_transaction_status:
+          $ref: '#/components/schemas/TransactionStatus'
+        user:
+          type: integer
+        gateway_mode:
+          type: integer
+          nullable: true
+    PatchedTransitOption:
+      type: object
+      properties:
+        transit_mode:
+          type: string
+        provider:
+          $ref: '#/components/schemas/TransitProvider'
+    PatchedTransitProvider:
+      type: object
+      properties:
+        name:
+          type: string
+          description: Name of the transit agency or service, like Uber, MTA, Rapido,
+            American Airlines etc. Accepts only alphanumeric characters and spaces
+          pattern: ^[0-9a-zA-Z\-_ ]*$
+          maxLength: 255
+    PatchedTrip:
+      type: object
+      properties:
+        id:
+          type: integer
+          readOnly: true
+        status:
+          type: string
+          readOnly: true
+        transit_mode:
+          type: string
+        active:
+          type: boolean
+        created_at:
+          type: string
+          format: date-time
+          readOnly: true
+        updated_at:
+          type: string
+          format: date-time
+          readOnly: true
+        start_location_name:
+          type: string
+          nullable: true
+          maxLength: 255
+        start_location_lat:
+          type: string
+          format: decimal
+          pattern: ^-?\d{0,3}(?:\.\d{0,6})?$
+          nullable: true
+        start_location_lng:
+          type: string
+          format: decimal
+          pattern: ^-?\d{0,3}(?:\.\d{0,6})?$
+          nullable: true
+        end_location_name:
+          type: string
+          nullable: true
+          maxLength: 255
+        end_location_lat:
+          type: string
+          format: decimal
+          pattern: ^-?\d{0,3}(?:\.\d{0,6})?$
+          nullable: true
+        end_location_lng:
+          type: string
+          format: decimal
+          pattern: ^-?\d{0,3}(?:\.\d{0,6})?$
+          nullable: true
+        scheduled_start_datetime:
+          type: string
+          format: date-time
+        scheduled_end_datetime:
+          type: string
+          format: date-time
+        actual_start_datetime:
+          type: string
+          format: date-time
+          nullable: true
+        actual_end_datetime:
+          type: string
+          format: date-time
+          nullable: true
+        duration:
+          type: integer
+          nullable: true
+        distance:
+          type: integer
+          nullable: true
+        fare:
+          type: number
+          format: double
+          nullable: true
+        user:
+          type: integer
+          nullable: true
+        parent:
+          type: integer
+          nullable: true
+        transit_option:
+          type: integer
+          nullable: true
+    PatchedUser:
+      type: object
+      properties:
+        id:
+          type: integer
+          readOnly: true
+        active:
+          type: boolean
+        created_at:
+          type: string
+          format: date-time
+          readOnly: true
+        updated_at:
+          type: string
+          format: date-time
+          readOnly: true
+        name:
+          type: string
+          nullable: true
+          maxLength: 255
+        phone_number:
+          type: string
+          nullable: true
+          pattern: ^[5-9]\d{9}$
+          maxLength: 10
+    RapidoUser:
+      type: object
+      properties:
+        mobile:
+          type: string
+          maxLength: 10
+      required:
+      - mobile
+    ServiceTypeEnum:
+      enum:
+      - biketaxi
+      - auto
+      type: string
+      description: |-
+        * `biketaxi` - biketaxi
+        * `auto` - auto
+    Ticket:
+      type: object
+      properties:
+        id:
+          type: integer
+          readOnly: true
+        pnr:
+          type: string
+          readOnly: true
+        ticket_type:
+          allOf:
+          - $ref: '#/components/schemas/TicketType'
+          readOnly: true
+        status:
+          type: integer
+          readOnly: true
+        fare:
+          allOf:
+          - $ref: '#/components/schemas/FareBreakup'
+          readOnly: true
+        start_location_name:
+          type: string
+          readOnly: true
+          nullable: true
+        start_location_lat:
+          type: string
+          format: decimal
+          pattern: ^-?\d{0,3}(?:\.\d{0,6})?$
+          readOnly: true
+          nullable: true
+        start_location_lng:
+          type: string
+          format: decimal
+          pattern: ^-?\d{0,3}(?:\.\d{0,6})?$
+          readOnly: true
+          nullable: true
+        end_location_name:
+          type: string
+          readOnly: true
+          nullable: true
+        end_location_lat:
+          type: string
+          format: decimal
+          pattern: ^-?\d{0,3}(?:\.\d{0,6})?$
+          readOnly: true
+          nullable: true
+        end_location_lng:
+          type: string
+          format: decimal
+          pattern: ^-?\d{0,3}(?:\.\d{0,6})?$
+          readOnly: true
+          nullable: true
+        transit_mode:
+          type: string
+        created_at:
+          type: string
+          format: date-time
+          readOnly: true
+        updated_at:
+          type: string
+          format: date-time
+          readOnly: true
+      required:
+      - created_at
+      - end_location_lat
+      - end_location_lng
+      - end_location_name
+      - fare
+      - id
+      - pnr
+      - start_location_lat
+      - start_location_lng
+      - start_location_name
+      - status
+      - ticket_type
+      - transit_mode
+      - updated_at
+    TicketType:
+      type: object
+      properties:
+        id:
+          type: integer
+          readOnly: true
+        name:
+          type: string
+          readOnly: true
+        discount_percentage:
+          type: number
+          format: double
+          readOnly: true
+        is_description_required:
+          type: boolean
+          readOnly: true
+        is_active:
+          type: boolean
+          readOnly: true
+        description:
+          type: string
+          readOnly: true
+          nullable: true
+      required:
+      - description
+      - discount_percentage
+      - id
+      - is_active
+      - is_description_required
+      - name
+    Transaction:
+      type: object
+      properties:
+        gateway_order_id:
+          type: string
+          maxLength: 30
+        active:
+          type: boolean
+        created_at:
+          type: string
+          format: date-time
+          readOnly: true
+        updated_at:
+          type: string
+          format: date-time
+          readOnly: true
+        status:
+          $ref: '#/components/schemas/TransactionStatus'
+        amount:
+          type: number
+          format: double
+        type:
+          $ref: '#/components/schemas/TypeEnum'
+        gateway_transaction_id:
+          type: string
+          nullable: true
+          maxLength: 63
+        gateway_transaction_status:
+          $ref: '#/components/schemas/TransactionStatus'
+        user:
+          type: integer
+        gateway_mode:
+          type: integer
+          nullable: true
+      required:
+      - amount
+      - created_at
+      - gateway_order_id
+      - updated_at
+      - user
+    TransactionStatus:
+      enum:
+      - P
+      - F
+      - S
+      type: string
+      description: |-
+        * `P` - Pending
+        * `F` - Failed
+        * `S` - Success
+    TransitOption:
+      type: object
+      properties:
+        transit_mode:
+          type: string
+        provider:
+          $ref: '#/components/schemas/TransitProvider'
+      required:
+      - provider
+      - transit_mode
+    TransitProvider:
+      type: object
+      properties:
+        name:
+          type: string
+          description: Name of the transit agency or service, like Uber, MTA, Rapido,
+            American Airlines etc. Accepts only alphanumeric characters and spaces
+          pattern: ^[0-9a-zA-Z\-_ ]*$
+          maxLength: 255
+      required:
+      - name
+    Trip:
+      type: object
+      properties:
+        id:
+          type: integer
+          readOnly: true
+        status:
+          type: string
+          readOnly: true
+        transit_mode:
+          type: string
+        active:
+          type: boolean
+        created_at:
+          type: string
+          format: date-time
+          readOnly: true
+        updated_at:
+          type: string
+          format: date-time
+          readOnly: true
+        start_location_name:
+          type: string
+          nullable: true
+          maxLength: 255
+        start_location_lat:
+          type: string
+          format: decimal
+          pattern: ^-?\d{0,3}(?:\.\d{0,6})?$
+          nullable: true
+        start_location_lng:
+          type: string
+          format: decimal
+          pattern: ^-?\d{0,3}(?:\.\d{0,6})?$
+          nullable: true
+        end_location_name:
+          type: string
+          nullable: true
+          maxLength: 255
+        end_location_lat:
+          type: string
+          format: decimal
+          pattern: ^-?\d{0,3}(?:\.\d{0,6})?$
+          nullable: true
+        end_location_lng:
+          type: string
+          format: decimal
+          pattern: ^-?\d{0,3}(?:\.\d{0,6})?$
+          nullable: true
+        scheduled_start_datetime:
+          type: string
+          format: date-time
+        scheduled_end_datetime:
+          type: string
+          format: date-time
+        actual_start_datetime:
+          type: string
+          format: date-time
+          nullable: true
+        actual_end_datetime:
+          type: string
+          format: date-time
+          nullable: true
+        duration:
+          type: integer
+          nullable: true
+        distance:
+          type: integer
+          nullable: true
+        fare:
+          type: number
+          format: double
+          nullable: true
+        user:
+          type: integer
+          nullable: true
+        parent:
+          type: integer
+          nullable: true
+        transit_option:
+          type: integer
+          nullable: true
+      required:
+      - created_at
+      - id
+      - status
+      - transit_mode
+      - updated_at
+    TypeEnum:
+      enum:
+      - 1
+      - 3
+      - 5
+      type: integer
+      description: |-
+        * `1` - Ticket
+        * `3` - Refund
+        * `5` - Top-Up
+    User:
+      type: object
+      properties:
+        id:
+          type: integer
+          readOnly: true
+        active:
+          type: boolean
+        created_at:
+          type: string
+          format: date-time
+          readOnly: true
+        updated_at:
+          type: string
+          format: date-time
+          readOnly: true
+        name:
+          type: string
+          nullable: true
+          maxLength: 255
+        phone_number:
+          type: string
+          nullable: true
+          pattern: ^[5-9]\d{9}$
+          maxLength: 10
+      required:
+      - created_at
+      - id
+      - updated_at
+  securitySchemes:
+    basicAuth:
+      type: http
+      scheme: basic
+    cookieAuth:
+      type: apiKey
+      in: cookie
+      name: sessionid

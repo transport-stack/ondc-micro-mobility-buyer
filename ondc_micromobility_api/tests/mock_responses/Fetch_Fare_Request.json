@@ -1,0 +1,30 @@
+{
+  "url": "http://tg.thalesafc.com/Fetch_Fare_Request",
+  "method": "POST",
+  "response": {
+    "fetch_Fare_Response": {
+      "error_Code": 0,
+      "error_Text": "Success",
+      "requester_Id": "234570",
+      "operator_Specific_Journeys": [
+        {
+          "operator_Id": "2",
+          "journey": [
+            {
+              "ticket_Fare": 3000,
+              "shortedPath": "0;0",
+              "minimumInterchange": "0;0",
+              "src_Stn": 18,
+              "dest_Stn": 19,
+              "journey_Date": "29/10/2023@09-07-59",
+              "grp_Size": 1,
+              "product_Id": 1,
+              "service_Id": 1
+            }
+          ]
+        }
+      ]
+    },
+    "fetch_Fare_Signature": "reox2kyp7egj7zfIpUuV/nRQhaOs6H/soRCwZG8ovYQM0RI207ZQ0vTLGw6+R4foON0U70mBCmDaamNgX+rTq4EEQ+GMWS+TrZsS1OZBnoffkYv8FVNWxkcGZ4FhHpGPz6rW6P9dMnx/UAp0hwoYkmP8CxPaYRal4zdD9lb/RHI="
+  }
+}

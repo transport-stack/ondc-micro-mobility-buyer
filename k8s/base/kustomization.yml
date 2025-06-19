@@ -1,0 +1,10 @@
+commonLabels:
+  project: dts
+resources:
+  - redis/deployment.yml
+  - redis/service.yml
+  - deployment-api-service.yml
+  - deployment-celery-worker.yml
+  - deployment-celery-beat.yml
+  - service.yml
+  - ingress.yml

@@ -1,0 +1,25 @@
+{
+    "url": "r'^https://securegw-stage.paytm.in/theia/api/v1/initiateTransaction\\?.*orderId=.*$'",
+    "method": "POST",
+    "response":
+    {
+        "head":
+        {
+            "responseTimestamp": "1698595747813",
+            "version": "v1",
+            "signature": "DUMMY_SIGNATURE"
+        },
+        "body":
+        {
+            "resultInfo":
+            {
+                "resultStatus": "S",
+                "resultCode": "0000",
+                "resultMsg": "Success"
+            },
+            "txnToken": "DUMMY_TXN_TOKEN",
+            "isPromoCodeValid": false,
+            "authenticated": false
+        }
+    }
+}
