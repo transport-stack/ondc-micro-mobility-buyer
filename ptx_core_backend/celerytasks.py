@@ -9,8 +9,9 @@ try:
     from celery import Celery
 except ImportError as exc:
     raise ImportError(
-        "Please set up using the steps here: "
-        "https://gitlab.com/chartrmobility/osrtc/osrtc-app/-/wikis/Redis-+-Celery-for-Background-Tasks"
+        "Please set up Redis and Celery for background tasks. See: "
+        "https://redis.io/docs/latest/operate/oss_and_stack/install/install-redis/ "
+        "and https://docs.celeryq.dev/en/stable/getting-started/introduction.html"
     ) from exc
 
 app = Celery("ptx_core_backend")
