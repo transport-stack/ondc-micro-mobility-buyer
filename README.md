@@ -4,7 +4,7 @@
 - Cloning the project (generate SSH Key on your system and add it to your profile on the code station)
 
   `git clone https://github.com/transport-stack/ondc-micro-mobility-buyer.git`
-- Ask the project maintainer for the latest working branch and checkout to that branch.
+- Development happens on `main`. Feature work should flow through branches/PRs into `main`.
 - Once cloning is done make the `.env` files running the below commands 
     ```bash
     cp ./envs/.env.common.sample ./envs/.env.common
